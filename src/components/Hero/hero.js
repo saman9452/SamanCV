@@ -10,7 +10,7 @@ const Hero = () => {
             <span className='hello'>Hello,</span>
             <span>I'm <span className='introName'>Saman</span></span>
             <span>Web Developer</span>
-            <p className='introPara'>I'm a skilled web developer with experience in developing interactive, innovative websites</p>
+            <p className='introPara'>I'm a skilled web developer with experience in developing <br /> interactive, innovative websites.</p>
             <Link><button className='btn'>Hire Me</button></Link>
         </div>
         <img className='bg' src={bg} />
