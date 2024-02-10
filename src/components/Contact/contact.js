@@ -1,5 +1,8 @@
 import React from 'react';
 import './contact.css';
+import linkedin from '../../assets/linkedin.png';
+import instagram from '../../assets/instagram.png';
+import facebook from '../../assets/facebook.png';
 
 const Contact = () => {
   return (
@@ -12,10 +15,10 @@ const Contact = () => {
             <textarea className='message' name='message' rows='5' placeholder='Your Message'></textarea>
             <button type='submit' value='Send' className='submitBtn'>Send</button>
             <div className='links'>
-                <img src='' className='' />
-                <img src='' className='' />
-                <img src='' className='' />
-                <img src='' className='' />
+                <img src={linkedin} className='link' />
+                <img src={instagram} className='link' />
+                <img src={facebook} className='link' />
+                <img src={facebook} className='link' />
             </div>
         </form>
     </section>

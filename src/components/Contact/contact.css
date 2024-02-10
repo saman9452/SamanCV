@@ -47,3 +47,16 @@
     border-radius: 0.5rem;
     margin-top: 1rem;
 }
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.link {
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 0.75rem;
+}
